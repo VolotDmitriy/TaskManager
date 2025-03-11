@@ -13,6 +13,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "log4js": "^6.9.1",
     "mongoose": "^8.9.5",
     "ts-node-dev": "^2.0.0"
   },

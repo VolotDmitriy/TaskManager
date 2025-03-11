@@ -1,0 +1,63 @@
+[2025-01-26T23:25:53.481] [ERROR] default - 
+[2025-01-26T23:26:09.528] [ERROR] default - 
+[2025-01-26T23:26:33.168] [ERROR] default - 
+[2025-01-27T00:35:59.900] [INFO] default - POST /tasks - Создание новой задачи: {"title":"Task 1"}
+[2025-01-27T00:36:02.227] [INFO] default - POST /tasks - Создание новой задачи: {"title":"Task 2"}
+[2025-01-27T00:36:04.399] [INFO] default - POST /tasks - Создание новой задачи: {"title":"Task 3"}
+[2025-01-27T00:36:06.836] [INFO] default - POST /tasks - Создание новой задачи: {"title":"Task 4"}
+[2025-01-27T00:36:12.764] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:36:29.305] [INFO] default - POST /tasks - Создание новой задачи: {"title":"New Added task"}
+[2025-01-27T00:36:46.331] [INFO] default - POST /tasks - Создание новой задачи: {"title":"New Added task 2","completed":true}
+[2025-01-27T00:38:05.332] [ERROR] default - title error in validator for new task, Title is required and must be non-empty sting
+[2025-01-27T00:38:26.646] [ERROR] default - title error in validator for new task, Title is required and must be non-empty sting
+[2025-01-27T00:38:37.839] [ERROR] default - title error in validator for new task, Title is required and must be non-empty sting
+[2025-01-27T00:39:01.173] [INFO] default - PUT /tasks/1 - Обновление задачи: {"title":"Updated Task","completed":true}
+[2025-01-27T00:39:06.366] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:39:09.853] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:39:23.275] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123"}
+[2025-01-27T00:39:23.777] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123"}
+[2025-01-27T00:39:24.206] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123"}
+[2025-01-27T00:39:24.454] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123"}
+[2025-01-27T00:39:24.639] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123"}
+[2025-01-27T00:39:24.720] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123"}
+[2025-01-27T00:39:24.913] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123"}
+[2025-01-27T00:39:26.864] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:39:32.731] [ERROR] default - title error in validator for new task, Title is required and must be non-empty sting
+[2025-01-27T00:39:34.599] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:39:35.543] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:39:38.221] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:39:41.722] [INFO] default - PUT /tasks/1 - Обновление задачи: {"title":"Updated Task","completed":true}
+[2025-01-27T00:39:55.316] [ERROR] default - title error in validator for update task, Title is required and must be non-empty sting
+[2025-01-27T00:40:00.720] [ERROR] default - title error in validator for update task, Title is required and must be non-empty sting
+[2025-01-27T00:40:05.297] [ERROR] default - completed error in validator for update task, Completed must be boolean
+[2025-01-27T00:40:19.805] [ERROR] default - completed error in validator for update task, Completed must be boolean
+[2025-01-27T00:40:25.539] [ERROR] default - Unexpected token } in JSON at position 20
+[2025-01-27T00:41:27.820] [INFO] default - GET /tasks - Получение всех задач
+[2025-01-27T00:41:30.698] [ERROR] default - title error in validator for new task, Title is required and must be non-empty sting
+[2025-01-27T00:41:31.391] [ERROR] default - title error in validator for new task, Title is required and must be non-empty sting
+[2025-01-27T00:41:31.668] [ERROR] default - title error in validator for new task, Title is required and must be non-empty sting
+[2025-01-27T00:41:39.396] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:39.594] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:39.684] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:39.870] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:39.967] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:40.154] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:40.236] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:40.348] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:40.521] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-01-27T00:41:46.154] [INFO] default - DELETE /tasks/2 - Удаление задачи
+[2025-01-27T00:41:52.164] [INFO] default - DELETE /tasks/999 - Удаление задачи
+[2025-02-11T14:24:39.118] [INFO] default - GET /tasks - Получение всех задач
+[2025-02-11T14:25:02.618] [INFO] default - POST /tasks - Создание новой задачи: {"title":"123123"}
+[2025-02-11T14:25:14.368] [INFO] default - POST /tasks - Создание новой задачи: {"title":"test test test"}
+[2025-02-11T14:25:50.318] [INFO] default - POST /tasks - Создание новой задачи: {"title":"test test test","completed":true}
+[2025-02-11T14:25:54.591] [INFO] default - POST /tasks - Создание новой задачи: {"title":"test test test11","completed":true}
+[2025-02-11T14:25:59.418] [ERROR] default - Unexpected token } in JSON at position 32
+[2025-02-11T14:26:15.560] [INFO] default - POST /tasks - Создание новой задачи: {"title":"test test test11"}
+[2025-02-11T14:26:21.417] [INFO] default - GET /tasks - Получение всех задач
+[2025-02-11T14:26:45.770] [INFO] default - DELETE /tasks/3 - Удаление задачи
+[2025-02-11T14:26:59.558] [INFO] default - GET /tasks - Получение всех задач
+[2025-02-11T14:27:24.397] [INFO] default - PUT /tasks/1 - Обновление задачи: {"title":"Hello world"}
+[2025-02-11T14:27:33.863] [INFO] default - GET /tasks - Получение всех задач
+[2025-02-11T14:27:53.510] [INFO] default - PUT /tasks/1 - Обновление задачи: {"title":"Hello world NEW","completed":true}
+[2025-02-11T14:27:57.820] [INFO] default - GET /tasks - Получение всех задач

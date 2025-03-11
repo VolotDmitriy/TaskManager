@@ -1,9 +1,8 @@
 import app from "./app";
 import dotenv from "dotenv";
+import config from "./config/default";
 
-dotenv.config();
-
-const PORT = process.env.PORT || 3000;
+const PORT = config.PORT;
 app.listen(PORT, () =>{
     console.log(`Server start on http://localhost:${PORT}`);
 })
